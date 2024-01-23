@@ -56,7 +56,6 @@ function App() {
 }
 
 function Header() {
-  // const style = { color: "red", fontSize: "48px", textTransform: "uppercase" };
   const style = {};
 
   return (
@@ -68,7 +67,6 @@ function Header() {
 
 function Menu() {
   const pizzas = pizzaData;
-  // const pizzas = [];
   const numPizzas = pizzas.length;
 
   return (
@@ -109,9 +107,6 @@ function Menu() {
 }
 
 function Pizza({ pizzaObj }) {
-
-  // if (pizzaObj.soldOut) return null;
-
   return (
     <li className={`pizza ${pizzaObj.soldOut ? "sold-out" : ""}`}>
       <img src={pizzaObj.photoName} alt={pizzaObj.name} />
