@@ -1,3 +1,3 @@
-# Pizza Menu using react basics
+# Pizza Menu using react fundamentals
 
 ![Alt text](pizza.jpg)
